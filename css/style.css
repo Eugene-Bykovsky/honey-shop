@@ -1,0 +1,224 @@
+/*__________ FONTS __________*/
+
+/* Lobster */
+@font-face {
+  font-family: Lobster; 
+  src: url(../fonts/lobster/Lobster-Regular.ttf); 
+ }
+
+/* Marck_script */
+@font-face {
+font-family: Marck_script; 
+src: url(../fonts/marck_script/MarckScript-Regular.ttf); 
+}
+
+@font-face {
+  font-family: Pacifico; 
+  src: url(../fonts/pacifico/Pacifico-Regular.ttf); 
+  }
+
+
+/*__________ STYLES __________*/
+
+/* HEADER */
+
+.header {
+  height: 200px;
+  background-image: url(../img/flowers.jpg);
+  background-size: contain;
+}
+
+.header__content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.siteName {
+ font-family: Lobster;
+ display: inline;
+ color: orange;
+ font-size: 44px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 0 10px;
+  font-family: Pacifico;
+  color: #841515;
+  font-size: 33px;
+}
+
+/* BENEFITS */
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url(../img/benefit1.jpg);
+  background-size: 100%;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.benefits__text {
+  background-color: chocolate;
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+}
+
+/* DESCRIPTION */
+
+.description {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #e4d40e1f;
+}
+
+.description__titles {
+  height: 30%;
+}
+
+.description__cards {
+  height: 60%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.description__card {
+  height: 50%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card__img {
+  height: 70%;
+  color: #d2543e;
+  background-position: top;
+}
+
+.card__title {
+  font-weight: bold;
+}
+
+.card__description {
+  height: 50%;
+  font-size: 20px;
+  width: 80%;
+}
+
+.consultation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* CATALOG */
+
+.catalog {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.catalog__title {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  color: #841515;
+  text-align: center;
+  font-family: Lobster;
+}
+
+.catalog__cards {
+  height: 70%;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.catalog__img {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  width: 300px;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.catalog__text {
+  height: min-content;
+  padding: 0 0.5em;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: teal;
+  font-size: 25px;
+  font-family: Pacifico;
+}
+
+.buckwheatHoney {
+  background-image: url(../img/buckwheatHoney.jpg);
+}
+
+.lindenHoney {
+  background-image: url(../img/linden.jpeg);
+}
+
+.herbalHoney {
+  background-image: url(../img/herbalHoney.jpeg);
+}
+
+.description__title {
+  font-family: Lobster;
+  color: #841515;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #841515;
+  font-family: Lobster;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us {
+  height: 350px;
+  background-color: #e4d40e1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
