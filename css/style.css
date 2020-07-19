@@ -24,25 +24,29 @@ src: url(../fonts/marck_script/MarckScript-Regular.ttf);
 
 .header {
   height: 200px;
-  background-image: url(../img/flowers.jpg);
+  background: linear-gradient(rgb(253 255 152 / 52%), rgb(203 192 65 / 50%)), url(../img/flowers.jpg);
   background-size: contain;
 }
 
 .header__content {
+  height: 100%;
   max-width: 90%;
   margin: 0 auto;
 }
 
 .logo {
+  height: 40%;
   display: flex;
   justify-content: center;
 }
 
 .siteName {
- font-family: Lobster;
- display: inline;
- color: orange;
- font-size: 44px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-family: Lobster;
+  color: orange;
+  font-size: 44px;
 }
 
 .navbar {
@@ -147,15 +151,6 @@ src: url(../fonts/marck_script/MarckScript-Regular.ttf);
   justify-content: space-around;
 }
 
-.catalog__title {
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  color: #841515;
-  text-align: center;
-  font-family: Lobster;
-}
-
 .catalog__cards {
   height: 70%;
   width: 70%;
@@ -221,4 +216,67 @@ src: url(../fonts/marck_script/MarckScript-Regular.ttf);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.feedback {
+  height: 300px;
+}
+
+.feedback__cards {
+  height: 75%;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feedback__card {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+  height: 45%;
+  border: 1px solid #c1bbbb;
+}
+
+.feedback__img {
+  height: 100%;
+}
+
+.feedback__text {
+  padding-left: 10px;
+}
+
+.footer {
+  height: 150px;
+  background: linear-gradient(rgb(253 255 152 / 52%), rgb(203 192 65 / 50%));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__content {
+  max-width: 90%;
+  margin: 0 auto;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.icon__item {
+  height: 40px;
+}
+
+.contacts {
+  border-left: 1px solid #fbfbfb;
 }
